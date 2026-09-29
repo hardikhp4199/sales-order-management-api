@@ -17,6 +17,40 @@ A sales order belongs to one customer and contains one or more order items. Each
 - OpenAPI
 - xUnit-ready test structure
 
+# DotNet Sales Order API
+
+Production-ready ASP.NET Core .NET 10 Web API using SQL Server and Entity Framework Core.
+
+## Database Relationship
+
+Customer
+    |
+    | 1:N
+    |
+SalesOrder
+    |
+    | 1:N
+    |
+SalesOrderItem
+    |
+    | N:1
+    |
+Product
+
+## Features
+
+- .NET 10 Web API
+- SQL Server
+- Entity Framework Core 10
+- Multi-table CRUD Operations
+- Validation
+- Transactions
+- Concurrency Handling
+- Health Checks
+- Swagger / OpenAPI
+- Global Exception Handling
+- Production-Oriented Structure
+
 ## Solution structure
 
 ```text
